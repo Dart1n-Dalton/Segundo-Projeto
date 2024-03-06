@@ -1,0 +1,160 @@
+:root{
+    --cor1: #FFECD6;
+    --cor2: #4CB9E7;
+    --cor3: #3559E0;
+    --cor4: #0F2167;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+.nav{
+    background-color: var(--cor4);
+    color: var(--cor1);
+    display: flex;    
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.logo{
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 8px;
+}
+.lista{
+    display: flex;
+    align-items: center;
+
+}
+.lista-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.lista-item{
+    padding-right: 5px;
+    margin-right: 10px;
+    list-style: none;
+}
+.lista-item-link{
+    color: var(--cor1);
+    text-decoration: none;
+}
+.lista-item-link:hover{
+    text-decoration: solid;
+    text-shadow: 2px 2px 1px var(--cor2);
+}
+header{
+    background-color: var(--cor3);
+}
+h1{
+    color: var(--cor1);
+    font-size: 70px;
+}
+.container{
+    width: 80%;
+    padding-left: 40px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.w-20{
+    width: 20;
+}
+.w-80{
+    width: 80%;
+    padding-left: 80px;
+}
+.img-100{
+    border-radius: 100%;
+    width: 13vw;
+}
+.flex-1{
+    display: flex;
+    margin: 100px;
+}
+.title-2{
+    border-bottom: 5px solid var(--cor4);
+
+    
+}
+.text{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    justify-content: left;
+}
+.figure-1{
+    width: 80%;
+}
+.secao-1{
+    background-color: var(--cor2);
+}
+.title-1{
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+.secao-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.w-30{
+    width: 60%;
+    padding-bottom: 20px;
+}
+.flex-2{
+    justify-content: space-around;
+    display: flex;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    width: 80%;
+}
+.container-1{
+    background-color: #0F2167 !important;
+    height: 5vh;
+    align-content: center;
+}
+.img-100-square{
+    width: 25vw;
+}
+.img-100-small{
+    width: 8.5vw;
+}
+.img-banner{
+    width: 100%;
+}
+.img-banner-galeria{
+    width: 98.5%;
+}
+.header-neve{
+    background-image: url('../img/bg-1920-1280.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    background-attachment: fixed;
+}
+.header-neve-h1{
+    color: rgb(0, 0, 0);
+    font-size:  70px;
+    font-family: fantasy;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+.container-img{
+    width: 80%;
+    padding-left: 40px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    width: 100%;
+}
+.align{
+    margin: 100px;
+}
